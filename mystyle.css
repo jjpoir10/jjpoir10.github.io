@@ -88,6 +88,12 @@ nav {
     height: 4rem;
 }
 
+.sub-nav h3 a {
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
 .ph-caret-right-bold {
     font-size: 1rem;
     color:#ffffff;
@@ -215,9 +221,6 @@ nav {
 }
 /* Sections */
 
-/* .section-wrapper {
-    margin: 4rem 16vw 0rem;
-} */
 section {
     position: relative;
     padding: 2rem 0;
