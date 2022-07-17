@@ -558,8 +558,8 @@ footer h4 {
         display: none;
     }
     .hero-text-box {
-        right: 2rem;
-        bottom: 6rem;
+        right: 1.5rem;
+        top: 6rem;
     }
     .about-container {
         flex-direction: column;
