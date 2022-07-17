@@ -35,7 +35,7 @@ nav {
 
 .mobile-nav {
     font-family: 'Gothic A1', sans-serif;
-    margin-left: 1.5rem;
+    margin-left: 1rem;
     font-weight: 800;
     display: none;
 }
@@ -498,7 +498,7 @@ footer h4 {
 }
 
 .sps-badge {
-    padding-left: 25%;
+    text-align: center;
     list-style: none;
 }
 
