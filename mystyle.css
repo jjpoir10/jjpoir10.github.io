@@ -27,12 +27,16 @@ nav {
     height: 4rem;
 }
 
-nav h3 {
+.main-nav {
     font-family: 'Gothic A1', sans-serif;
     margin-left: 1.5rem;
 }
 
-nav h3 a {
+.mobile-nav {
+    display: none;
+}
+
+.main-nav a {
     text-decoration: none;
     color: #ffffff;
     cursor: pointer;
@@ -517,6 +521,12 @@ footer h4 {
 /* Mobile Responsiveness */
 
 @media screen and (max-width: 599px) {
+    .mobile-nav {
+        display: inline;
+    }
+    .main-nav {
+        display: none;
+    }
     .sub-nav-button a {
         display: none;
     }
@@ -559,6 +569,12 @@ footer h4 {
 
 /* Tablet Responsiveness */
 @media screen and (min-width: 600px) and (max-width: 899px) {
+    #mobile-nav {
+        display: inline;
+    }
+    .main-nav {
+        display: none;
+    }
     .about-container {
         flex-direction: column;
     }
