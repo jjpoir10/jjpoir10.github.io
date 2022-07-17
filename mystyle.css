@@ -543,9 +543,12 @@ footer h4 {
         display: none;
     }
     .sub-nav h3 a {
-        font-size: 2rem;
+        font-size: 1.25rem;
     }
     .sub-nav-button a {
+        display: none;
+    }
+    .hero-icon-container {
         display: none;
     }
     .about-container {
