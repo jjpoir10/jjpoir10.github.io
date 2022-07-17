@@ -559,7 +559,7 @@ footer h4 {
     }
     .hero-text-box {
         right: 1.5rem;
-        top: 0.75rem;
+        top: 0;
     }
     .about-container {
         flex-direction: column;
