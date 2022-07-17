@@ -577,12 +577,6 @@ footer h4 {
 
 /* Tablet Responsiveness */
 @media screen and (min-width: 600px) and (max-width: 899px) {
-    .mobile-nav {
-        display: inline;
-    }
-    .main-nav {
-        display: none;
-    }
     .about-container {
         flex-direction: column;
     }
