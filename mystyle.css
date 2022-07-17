@@ -580,9 +580,13 @@ footer h4 {
     .portfolio-detail-container {
         width: 100%;
     }
+    .portfolio-image-container {
+        width: 100%;
+    }
     .embed-wrapper {
         width: 100%
     }
+
 }
 
 /* Tablet Responsiveness */
@@ -613,6 +617,9 @@ footer h4 {
         flex-direction: column-reverse;
     }
     .portfolio-detail-container {
+        width: 100%;
+    }
+    .portfolio-image-container {
         width: 100%;
     }
     .embed-wrapper {
