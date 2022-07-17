@@ -33,10 +33,18 @@ nav {
 }
 
 .mobile-nav {
+    font-family: 'Gothic A1', sans-serif;
+    margin-left: 1.5rem;
     display: none;
 }
 
 .main-nav a {
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.mobile-nav a {
     text-decoration: none;
     color: #ffffff;
     cursor: pointer;
@@ -569,7 +577,7 @@ footer h4 {
 
 /* Tablet Responsiveness */
 @media screen and (min-width: 600px) and (max-width: 899px) {
-    #mobile-nav {
+    .mobile-nav {
         display: inline;
     }
     .main-nav {
