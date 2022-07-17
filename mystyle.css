@@ -440,8 +440,8 @@ footer h4 {
     background-color: #c8d3d5;
 }
 
-.portfolio-detail-image {
-    width: 50%;
+.portfolio-image {
+    width: 100%;
     object-fit: cover;
     margin: 0 0.75rem;
     border: 1px solid black;
@@ -537,6 +537,9 @@ footer h4 {
     }
     .main-nav {
         display: none;
+    }
+    .sub-nav h3 a {
+        font-size: 2rem;
     }
     .sub-nav-button a {
         display: none;
