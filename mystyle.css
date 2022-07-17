@@ -557,6 +557,10 @@ footer h4 {
     .hero-icon-container {
         display: none;
     }
+    .hero-text-box {
+        right: 2rem;
+        bottom: 6rem;
+    }
     .about-container {
         flex-direction: column;
     }
