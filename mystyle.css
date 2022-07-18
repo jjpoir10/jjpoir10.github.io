@@ -93,6 +93,7 @@ nav {
 .sub-nav h3 a {
     text-decoration: none;
     color: #ffffff;
+    margin-left: 1.5rem;
     font-weight: 800;
     cursor: pointer;
 }
@@ -549,6 +550,7 @@ footer h4 {
         display: none;
     }
     .sub-nav h3 a {
+        margin-left: 1rem;
         font-size: 1.25rem;
     }
     .sub-nav-button a {
